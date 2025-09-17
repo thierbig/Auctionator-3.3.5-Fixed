@@ -15,7 +15,10 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 - Added modern-like "Inventory" section on the "sell" tab
 - Alt-right click to list items from bag (can't do right click because of game limitation)
 
-See the screenshot for modern inventory for ultra fast listing:
+See the screenshot for modern inventory for ultra fast listing
+<img width="1495" height="780" alt="image" src="https://github.com/user-attachments/assets/1ab30eab-9207-44e3-8e23-8865279f25ac" />
+
+
 
 <p align="center">
 <img src="https://i115.fastpic.org/big/2021/0926/e6/020ebdf2dfa301ea50233b5315c318e6.png">
