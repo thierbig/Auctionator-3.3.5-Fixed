@@ -11,10 +11,11 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 - A new mark has been added to the items tooltip - the [median](https://en.wikipedia.org/wiki/Median) price. Calculated based on the last 15 full scans of the auction house and stored in `SavedVars`.
 
 ## New Features
-- 20 seconds timeout on full scan, which means infinite hang usually
+- 20 seconds timeout on full scan, which would mean infinite hang anyway
 - Added modern-like "Inventory" section on the "sell" tab
+- Alt-right click to list items from bag (can't do right click because of game limitation)
 
-See the screenshot
+See the screenshot for modern inventory for ultra fast listing:
 
 <p align="center">
 <img src="https://i115.fastpic.org/big/2021/0926/e6/020ebdf2dfa301ea50233b5315c318e6.png">
