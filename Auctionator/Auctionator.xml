@@ -1240,7 +1240,7 @@
 					<Anchors><Anchor point="TOPLEFT"><Offset x="150" y="-105"/></Anchor></Anchors>
 				</FontString>
 				<FontString name="Atr_FullScanStatus" inherits="GameFontNormal" text="">
-					<Anchors><Anchor point="TOPLEFT"><Offset x="27" y="-140"/></Anchor></Anchors>
+					<Anchors><Anchor point="TOPLEFT"><Offset x="27" y="-130"/></Anchor></Anchors>
 				</FontString>
 			</Layer>
 
@@ -1250,7 +1250,7 @@
 			
 			<Button name="Atr_FullScanDone" inherits="UIPanelButtonTemplate" text="DONE">
 				<Size><AbsDimension x="80" y="22"/>	</Size>
-				<Anchors><Anchor point="TOPRIGHT"><Offset><AbsDimension x="-30" y="-140"/></Offset></Anchor></Anchors>
+				<Anchors><Anchor point="TOPRIGHT"><Offset><AbsDimension x="-30" y="-155"/></Offset></Anchor></Anchors>
 				<Scripts>
 					<OnClick>
 						Atr_FullScanFrame:Hide();
