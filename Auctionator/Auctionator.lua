@@ -116,7 +116,6 @@ local gSB_Widgets = {};           -- dynamic frames created under Atr_SB_Content
 
 -- SELL tab enlarged layout state
 local gSellLayoutExpandedApplied = false;
-local gAF_OrigScale = nil;
 local gHB_OrigPoint = nil;           -- Atr_HeadingsBar original anchor
 local gSF_OrigPoint = nil;           -- AuctionatorScrollFrame original anchor
 
@@ -1427,12 +1426,6 @@ end
 function Atr_ApplySellExpandedLayout()
     if (gSellLayoutExpandedApplied) then return; end
 
-    -- Scale up the entire AuctionFrame
-    if (AuctionFrame) then
-        gAF_OrigScale = gAF_OrigScale or AuctionFrame:GetScale();
-        AuctionFrame:SetScale((gAF_OrigScale or 1) * 1.15);
-    end
-
     -- Re-anchor the inventory browser below the image in the center panel
     if (Atr_SellBrowser and Atr_RecommendItem_Tex) then
         Atr_SellBrowser:ClearAllPoints();
@@ -1468,11 +1461,6 @@ end
 
 function Atr_ResetSellExpandedLayout()
     if (not gSellLayoutExpandedApplied) then return; end
-
-    -- Restore AuctionFrame scale
-    if (AuctionFrame and gAF_OrigScale) then
-        AuctionFrame:SetScale(gAF_OrigScale);
-    end
 
     -- Restore headings and scroll positions
     if (gHB_OrigPoint) then RestorePoint(Atr_HeadingsBar, gHB_OrigPoint); end
