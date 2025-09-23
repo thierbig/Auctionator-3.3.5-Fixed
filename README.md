@@ -12,8 +12,10 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 
 ## New Features
 - 20 seconds timeout on full scan, which would mean infinite hang anyway
+- 2 seconds timeout on buy scan, which would mean infinite hang anyway
 - Added modern-like "Inventory" section on the "sell" tab
-- Alt-right click to list items from bag (can't do right click because of game limitation)
+- Alt-right click to list items from bag (can't do right click because of game limitation) (might not work becauxse of other addons)
+- Fix performance bug when changing zones
 
 See the screenshot for modern inventory for ultra fast listing
 <img width="1495" height="780" alt="image" src="https://github.com/user-attachments/assets/1ab30eab-9207-44e3-8e23-8865279f25ac" />
