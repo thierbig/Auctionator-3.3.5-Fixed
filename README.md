@@ -18,9 +18,9 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 - Fix performance bug when changing zones
 
 ## Remaining Issues
--Fix .xml positions on the sell tab history for visual enhancement
--Fix lua errors conflicts for some addons/users
--Fix alt click issue for some users
+- Fix .xml positions on the sell tab history for visual enhancement
+- Fix lua errors conflicts for some addons/users
+- Fix alt click issue for some users
 
 If anyone wants to do a PR, it would be appreciated although the addon is in a good state now except for people having critical issues with addons conflicts 
 
