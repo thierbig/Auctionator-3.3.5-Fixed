@@ -4,7 +4,11 @@
 Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.
 ##### Version: `2.6.8` (this addon version designed for 4.0.1, but it works great also with 3.3.5a)
 ##### Original author: `Zirco`
-##### [CurseForge Link to unmodified version](https://www.curseforge.com/wow/addons/auctionator/files/469905)  
+##### [CurseForge Link to unmodified version](https://www.curseforge.com/wow/addons/auctionator/files/469905)
+
+## Installation
+- Download the repository ZIP and extract the `TrinketMenu` folder into `Interface/AddOns/`.
+- Use the direct link: [Download ZIP](https://github.com/thierbig/Auctionator-3.3.5-Fixed/archive/refs/heads/main.zip)
  
 ## OG Features
 - Fixed a bug while performing a full scan of the auction house, when the names of some items are not loaded from the server and it caused an infinity hang;
