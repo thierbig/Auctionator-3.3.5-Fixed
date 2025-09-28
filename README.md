@@ -7,7 +7,7 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 ##### [CurseForge Link to unmodified version](https://www.curseforge.com/wow/addons/auctionator/files/469905)
 
 ## Installation
-- Download the repository ZIP and extract the `TrinketMenu` folder into `Interface/AddOns/`.
+- Download the repository ZIP and extract the `Auctionator` folder into `Interface/AddOns/`.
 - Use the direct link: [Download ZIP](https://github.com/thierbig/Auctionator-3.3.5-Fixed/archive/refs/heads/main.zip)
  
 ## OG Features
