@@ -24,7 +24,7 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 - Fix lua errors conflicts for some addons/users
 - Fix alt click issue for some users
 
-If anyone wants to do a PR, it would be appreciated although the addon is in a good state now except for people having critical issues with addons conflicts 
+If anyone wants to do a PR, it would be appreciated although the addon is in a good state now
 
 See the screenshot for modern inventory for ultra fast listing
 <img width="1495" height="780" alt="image" src="https://github.com/user-attachments/assets/1ab30eab-9207-44e3-8e23-8865279f25ac" />
