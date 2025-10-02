@@ -21,6 +21,7 @@ Auctionator is designed for casual everyday auction house users. Auctionator mak
 
 ## Remaining Issues
 - Fix .xml positions on the sell tab history for visual enhancement (3-4 lines of height required)
+- Fix when listing stacks of items, need to re-open sell tab window
 - Fix lua errors conflicts for some addons/users
 - Fix alt click issue for some users
 
