@@ -7,6 +7,7 @@ AtrL["SCAN_EXPLANATION"] = "Scanning the auction house builds a database of pric
 							.."auctions at that moment."
 							.."<br/><br/>"
 							.."Scanning usually takes about 10 seconds but takes much longer the first time after a Warcraft patch.  "
+							.."The Scan times out automatically after 10 minutes to prevent an infinite hanging loop.  "
 							.."Note that Blizzard only allows scanning once every 15 minutes."
 							.."<br/><br/>"
 							.."Finally, a warning: if you have a low-bandwidth connection, scanning may cause you to disconnect.";
@@ -202,6 +203,7 @@ AtrL["You may have no more than\n\n%d items on a shopping list."] = ""
 AtrL["your auction on"] = ""
 AtrL["your most recent posting"] = ""
 AtrL["yours"] = ""
+
 
 
 end
