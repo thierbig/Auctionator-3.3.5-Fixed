@@ -12,7 +12,6 @@ Locales\enUS.lua
 Locales\deDE.lua
 Locales\ruRU.lua
 Locales\frFR.lua
-Locales\svSE.lua
 Locales\esES.lua
 
 zcUtils.lua
